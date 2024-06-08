@@ -1,0 +1,45 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height:85px;
+    width:100vw;
+    opacity: 1;
+    background: #FFFFFF 0% 0% no-repeat;
+    border-style: solid ;
+    border-color: #EBEBEB;
+
+    border-width: 1px;
+}
+
+.logo{
+    margin:10px;
+}
+
+.option-cont{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-right:30px;
+
+}
+
+.op{
+    font-family:Arial, Helvetica, sans-serif;
+    font: normal normal medium 17px/21px Apercu Pro;
+    color:#1A1B1E;
+    margin-left:20px;
+    font-weight: bold;
+    font-size: 17px;
+
+}
+
+.options{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

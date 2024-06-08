@@ -1,0 +1,163 @@
+.finance-company{
+ margin-left:20px;
+ margin-bottom:20px;
+width: 398px;
+height: 202px;
+ 
+ 
+ 
+border: 4px solid #FFFFFF;
+border-radius: 5px;
+opacity: 1;
+}
+
+.icon-bankname-con{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top:15px;
+    margin-left:5px;
+}
+
+.bankimage{
+    height:50px;
+    width:50px;
+    margin-right:30px;
+     
+}
+
+.bank-name{
+    width: 201px;
+height: 19px;
+text-align: left;
+ font-size:19px;
+color: #1A1B1E;
+opacity: 1;
+ 
+}
+.tick{
+    height:15px;
+    width:15px;
+}
+
+
+.btn{
+    top: 556px;
+left: 85px;
+width: 172px;
+height: 35px;
+ 
+border-radius: 5px;
+opacity: 0.91;
+}
+.btn-con{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top:20px;
+}
+
+.btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding:10px;
+}
+
+.interest-heading{
+    
+color: #1A1B1E;
+font-size:15px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+opacity: 1;
+}
+
+.intrest-book-con{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items: center;
+    padding: 0px;
+
+}
+
+.intrest-con{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:0px;
+}
+.intrestupto-head{
+    padding-top:10px;
+    margin:0px;
+}
+
+.book-con{
+    width: 133px;
+height: 42px;
+ 
+box-shadow: 0px 5px 5px #0000000D;
+border-radius: 5px;
+opacity: 1;
+color:#ffffff;
+text-align: center;
+padding:5px;
+}
+
+
+
+
+.blue{
+    background-color:#EFF6FF;
+}
+
+.btn-blue{
+    background-color: #0072BB;
+}
+
+.b1-blue{
+     background-color:  #b8cbd7;
+}
+
+
+.orange{
+    background: #FFEFEF 0% 0% no-repeat padding-box;
+}
+
+.btn-orange{
+    background: #FF0000 0% 0% no-repeat padding-box;
+}
+
+.b1-orange{
+    background: #d8b3b3 0% 0% no-repeat padding-box;
+}
+
+
+.black{
+    background: #F4F4F4 0% 0% no-repeat padding-box;
+}
+
+.btn-black{
+    background: #040404 0% 0% no-repeat padding-box;
+}
+
+.b1-black{
+    background-color:#c1c1c1;
+}
+
+
+.violet{
+    background: #F8F0FF 0% 0% no-repeat padding-box;
+}
+
+.btn-violet{
+    background: #520B8D 0% 0% no-repeat padding-box;
+}
+
+.b1-violet{
+    background: #EFDDFF 0% 0% no-repeat padding-box;
+}
