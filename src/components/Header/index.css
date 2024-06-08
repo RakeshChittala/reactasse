@@ -42,4 +42,29 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin-left:10px;
 }
+
+
+.dropdown{
+    margin-left:10px;
+    border-style: solid;
+    border-color: blue;
+    border-radius: 20px;
+    border-width:2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:30px;
+    width:40px;
+}
+
+
+
+
+
+ .support-btn{
+    border-style: none;
+    background-color: transparent;
+
+ }

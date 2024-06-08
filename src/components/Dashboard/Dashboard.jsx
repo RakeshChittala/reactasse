@@ -64,6 +64,7 @@
 // export default Dashboard;
 import React from "react";
 import Fdprofile from "../Fdprofile/Fdprofile.jsx";
+import Answers from "../Answers/Answers.jsx";
 import Details from "../Details/Details.jsx";
 import "./dashboard.css";
 import Timeline from "../Timeline/Timeline.jsx";
@@ -125,6 +126,47 @@ const bankDetails = [
   },
 ];
 
+const detailsList = [
+  {
+    id: 1,
+    amount: 20000,
+    tenure: "2 Years",
+    intrest: "9.10%",
+    date: 28,
+    bank: "Utkrash SF Bank FD Plan 2",
+    detail1: "Video KYC",
+    detail2: "Schedule on",
+    b1: "Compplet",
+    b2: "Reshedule",
+  },
+  {
+    id: 2,
+    amount: 20000,
+    tenure: "2 Years",
+    intrest: "9.10%",
+    date: 23,
+    bank: "Utkrash SF Bank FD Plan 2",
+    detail1: "Pending Payment",
+    detail2: "Pay By",
+    b1: "Pay Now",
+    b2: "Cancel Application",
+  },
+  {
+    id: 3,
+    amount: 25000,
+    tenure: "18 Months",
+    intrest: "8.10%",
+    date: 30,
+    bank: " Bajaj Finserv Crop FD1",
+    detail1: "Up Coming FD Maturity",
+    detail2: "Renew By",
+    b1: "Renew Now",
+    b2: "Compare other FDs",
+  },
+];
+
+const li = [1, 2, 3];
+
 const Dashboard = () => {
   return (
     <div className="dashboard">
@@ -134,13 +176,34 @@ const Dashboard = () => {
         <Timeline />
       </div>
       <div className="finance-and-details-con">
-        <div className="finance-company-con">
-          {bankDetails.map((each) => (
-            <Financecompany key={each.id} image={each} />
-          ))}
+        <div className="finance-company-get-answers-cont">
+          <div className="finance-company-con">
+            {bankDetails.map((each) => (
+              <Financecompany key={each.id} image={each} />
+            ))}
+          </div>
+          <div className="get-ansewrs-cont">
+            <div className="get-answer-heading-arrows-cont">
+              <h1 className="get-answers-heading">
+                Get Answers For <br />{" "}
+                <span className="sub"> all the questions</span>
+              </h1>
+              <div className="arrows-cont">
+                <h1 className="arrow1">&lt; </h1>
+                <h1 className="arrow2"> &gt; </h1>
+              </div>
+            </div>
+            <div className="get-answer-cards-cont">
+              {li.map((each) => (
+                <Answers key={each} />
+              ))}
+            </div>
+          </div>
         </div>
         <div className="details-sec">
-          <Details />
+          {detailsList.map((each) => (
+            <Details key={each.id} image={each} />
+          ))}
         </div>
       </div>
     </div>
